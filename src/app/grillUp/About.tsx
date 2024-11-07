@@ -9,10 +9,11 @@ export default function About() {
         <div className="flex-container flex-row">
           
           {/* Image Section */}
-          <div className="imageContainer imageShadow">
+          <div className="imageContainer shadow-lg">
             <Image
               src={aboutImage}
-              alt="About Burger Image"
+              alt="Grilled Burger with toppings"
+              layout="responsive"
               width={500}
               height={400}
               className="imageShadow"
@@ -25,9 +26,9 @@ export default function About() {
             <p className="paragraph">
               Welcome to GrillUp, where passion meets flavor! Our burgers are
               crafted with the finest ingredients, grilled to perfection, and
-              served with love. Whether you&apos;re craving a classic cheeseburger or
-              something bold and new, we&apos;ve got you covered. Come join us for a
-              bite you won&apos;t forget.
+              served with love. Whether you're craving a classic cheeseburger or
+              something bold and new, we've got you covered. Come join us for a
+              bite you won't forget.
             </p>
           </div>
         </div>
