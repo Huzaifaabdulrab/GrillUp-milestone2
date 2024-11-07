@@ -1,4 +1,3 @@
-import Image from "next/image";  // Commented out since it's not used currently
 import Navbar from "../app/grillUp/Navbar";
 import Screen from "./grillUp/Screen";
 import About from "../app/grillUp/About";
